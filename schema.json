@@ -1,0 +1,44 @@
+{
+  "fields": [
+    {
+      "name": "order_id",
+      "type": "string",
+      "required": true,
+      "rules": {
+        "non_empty": true
+      }
+    },
+    {
+      "name": "customer_name",
+      "type": "string",
+      "required": true,
+      "rules": {
+        "non_empty": true
+      }
+    },
+    {
+      "name": "item_name",
+      "type": "string",
+      "required": true,
+      "rules": {
+        "non_empty": true
+      }
+    },
+    {
+      "name": "item_unit_price",
+      "type": "decimal",
+      "required": true,
+      "rules": {
+        "min": 0
+      }
+    },
+    {
+      "name": "quantity",
+      "type": "integer",
+      "required": true,
+      "rules": {
+        "min": 1
+      }
+    }
+  ]
+}

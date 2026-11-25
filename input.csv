@@ -1,0 +1,4 @@
+order_id,customer_name,item_name,item_unit_price,quantity
+ORD-001,Alice,Laptop,1000,5
+ORD-002,,Mouse,20,3
+ORD-003,Charlie,Keyboard,50,-1
