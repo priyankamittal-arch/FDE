@@ -3,7 +3,7 @@
 Ran the checks using command  cd /Users/priyankamittal/FDE/Week0 && python3 csv_validator.py input.csv output.json --schema schema.json
 
 ## Validation Results
-==================
+
 Valid rows: 1
 Rejected rows: 2
 
